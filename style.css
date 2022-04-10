@@ -27,7 +27,7 @@ body{
 
 
 .bigfont{
-    margin: 5% 5% 0% 5%;
+    margin: 15px 15px 0px 15px;
     text-align: center;
     color:#c9e6e7;
     font-style: bold;
@@ -58,7 +58,7 @@ body{
 }
 
 .smallfont{
-    margin: -3% 2% 2% 2%;
+    margin: -50px 7px 7px 7px;
     color:#c9e6e7;
     text-align: center;
     font-size: 25px;
@@ -282,4 +282,9 @@ select:hover{
 
 form{
     margin-bottom:100px;
+}
+
+@media screen and (orientation:portrait)  {
+    .bigfont2{font-size: 100px;}
+
 }
